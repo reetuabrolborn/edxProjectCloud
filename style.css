@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+
+}
+h1{
+    color:grey;
+    font-family: Verdana;
+
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
