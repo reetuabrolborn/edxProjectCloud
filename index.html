@@ -1,0 +1,48 @@
+<html><head>
+            <title>Simple Interest Calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div class="cont">
+            <div class="maindiv">
+             <div class="head">   
+            <h1>Simple Interest Calculator</h1>
+        </div>
+        <div class="input">
+            Amount <input type="number" id="principal">  <br>
+            Rate <input type="range" id="rate" min="minval" max="maxval" value="default_val" onchange="updateRate()"><span id="rate_val">27</span>  <br>
+            No. of Years <select id="years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option> 
+    
+                <!-- fill in the rest of the values-->
+            </select> <br>
+          
+        </div>
+            <button onclick="compute()">Compute</button>
+            <span id="result">If you deposit 100,<br>at an interest rate of 27%<br>You will receive an amount of 27,<br>in the year 2023<br></span>
+            <footer>
+    
+                © This Calculator belongs to Reetu Abrol
+        
+        
+        </footer>
+        </div>
+            </div>
+        
+    
+    </body></html>
